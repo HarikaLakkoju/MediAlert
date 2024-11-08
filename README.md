@@ -58,7 +58,7 @@ MediAlert is a medication reminder application built with 💻 **Spring Boot**. 
 
 ### 👤 User       💊 Medication
 
-<img src="assets/Entities.png" alt="SMS Example" width="900" height="500">
+<img src="assets/Entities.png" alt="SMS Example" width="1000" height="500">
 
 ---
 
@@ -106,11 +106,11 @@ Explore the API: Use the Swagger interface to test the API endpoints for user an
 
 ## 📩 SMS Notification Example
 This is an example of an SMS reminder that will be sent to the user:
-<img src="assets/sms.jpeg" alt="SMS Example" width="300" height="500">
+<img src="assets/sms.jpeg" alt="SMS Example" width="300" height="400">
 
 ## 📄 Swagger API Documentation
 The application includes an interactive Swagger UI for exploring and testing the API.
-<img src="assets/SwaggerDocumentation.png" alt="SMS Example" width="500" height="900">
+<img src="assets/SwaggerDocumentation.png" alt="SMS Example" width="500" height="1000">
 
 ## 📝 Logging
 MediAlert uses SLF4J for structured logging, helping track application activity, including API calls and error handling.
