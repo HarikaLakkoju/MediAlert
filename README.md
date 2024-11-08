@@ -57,31 +57,27 @@ DELETE /api/users/{userId}/medications/{id} - Delete a medication by ID for a sp
    ```bash
    git clone https://github.com//MediAlert.git
 
-bash
-Copy code
-git clone (https://github.com/HarikaLakkoju/MediAlert)
-Navigate into the project directory:
+2.**Navigate into the project directory:**
+```bash
+  cd MediAlert
 
-cd MediAlert
-Install dependencies:
-
-mvn install
-Configure Twilio credentials in application.properties:
-
-properties
+3. **Install dependencies:**
+```bash
+  mvn install
+4. **Configure Twilio credentials in application.properties:**
 twilio.accountSid=your_account_sid
 twilio.authToken=your_auth_token
 twilio.fromPhoneNumber=your_twilio_phone_number
 
-Run the application:
+5.**Run the application:**
 mvn spring-boot:run
-📖 Usage
+### 📖 Usage
 Access the Swagger API Documentation:
 
 Open a browser and navigate to:
+```bash
+ http://localhost:9999/swagger-ui/index.html
 
-
-http://localhost:9999/swagger-ui/index.html
 Explore the API: Use the Swagger interface to test the API endpoints for user and medication management.
 
 ## 📩 SMS Notification Example
