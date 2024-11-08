@@ -83,16 +83,16 @@ MediAlert is a medication reminder application built with 💻 **Spring Boot**. 
 ```bash
   mvn install
 ```
-4. **Configure Twilio credentials in application.properties:**
-   ```bash
-twilio.accountSid=your_account_sid
-twilio.authToken=your_auth_token
-twilio.fromPhoneNumber=your_twilio_phone_number ```
+4. **Configure Twilio credentials in `application.properties`:**
+   ```properties
+   twilio.accountSid=your_account_sid
+   twilio.authToken=your_auth_token
+   twilio.fromPhoneNumber=your_twilio_phone_number
 
-5.**Run the application:**
+5. **Run the application:**
 ```bash
-mvn spring-boot:run ```
-
+mvn spring-boot:run
+ ```
 ---
 
 ### 📖 Usage
@@ -102,7 +102,7 @@ Open a browser and navigate to:
 ```bash
  http://localhost:9999/swagger-ui/index.html
 ```
-Explore the API: Use the Swagger interface to test the API endpoints for user and medication management.
+*Explore the API: Use the Swagger interface to test the API endpoints for user and medication management.*
 
 ---
 
