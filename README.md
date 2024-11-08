@@ -34,27 +34,14 @@ DELETE /api/users/{id} - Delete a user by user ID.
 GET /api/users/{userId}/medications - Retrieve all medications for a specific user.
 POST /api/users/{userId}/medications - Add a medication for a specific user.
 DELETE /api/users/{userId}/medications/{id} - Delete a medication by ID for a specific user.
-📋 Entity Structure
-<img src="assets/Entities.png" alt="SMS Example" width="900" height="500">
+
+
 
 ## 📋 Entity Structure
 
-### 👤 User
-| Field        | Type           |
-|--------------|----------------|
-| id           | integer        |
-| name         | string         |
-| phoneNumber  | string         |
-| medications  | List<Medication> |
+### 👤 User      ### 💊 Medication
 
-### 💊 Medication
-| Field             | Type    |
-|-------------------|---------|
-| id                | integer |
-| name              | string  |
-| tabletCount       | integer |
-| timeToTake        | string  |
-| specialInstruction| string  |
+<img src="assets/Entities.png" alt="SMS Example" width="900" height="500">
 
 ---
 ## 🛠️ Getting Started
