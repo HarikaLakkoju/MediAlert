@@ -100,3 +100,17 @@ Commit your changes.
 Push to the branch.
 Open a Pull Request.
 We welcome all contributions to improve MediAlert! 🚀
+#!/bin/bash
+
+# Clone the repository
+git clone https://github.com/YourUsername/MediAlert.git
+
+# Navigate into the project directory
+cd MediAlert
+
+# Install dependencies
+mvn install
+
+# Start the application
+mvn spring-boot:run
+
