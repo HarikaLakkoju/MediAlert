@@ -23,7 +23,6 @@ MediAlert is a medication reminder application built with 💻 **Spring Boot**. 
 
 ---
 
-## 🚀 API Endpoints
 # 🧑‍💻 API Endpoints Documentation
 
 ## 👤 User Endpoints
@@ -58,7 +57,7 @@ MediAlert is a medication reminder application built with 💻 **Spring Boot**. 
 
 ### 👤 User       💊 Medication
 
-<img src="assets/Entities.png" alt="SMS Example" width="1000" height="500">
+<img src="assets/Entities.png" alt="Schema Example" width="1000" height="500">
 
 ---
 
@@ -85,11 +84,14 @@ MediAlert is a medication reminder application built with 💻 **Spring Boot**. 
   mvn install
 ```
 4. **Configure Twilio credentials in application.properties:**
+   ```bash
 twilio.accountSid=your_account_sid
 twilio.authToken=your_auth_token
-twilio.fromPhoneNumber=your_twilio_phone_number```
+twilio.fromPhoneNumber=your_twilio_phone_number ```
+
 5.**Run the application:**
-mvn spring-boot:run```
+```bash
+mvn spring-boot:run ```
 
 ---
 
@@ -105,7 +107,7 @@ Explore the API: Use the Swagger interface to test the API endpoints for user an
 ---
 
 ## 📩 SMS Notification Example
-This is an example of an SMS reminder that will be sent to the user:
+This is an example of an SMS reminder that will be sent to the user:<br>
 <img src="assets/sms.jpeg" alt="SMS Example" width="350" height="400">
 
 ## 📄 Swagger API Documentation
