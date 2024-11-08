@@ -51,7 +51,8 @@ MediAlert is a medication reminder application built with 💻 **Spring Boot**. 
 
 - **DELETE** `/api/users/{userId}/medications/{id}` - Delete a medication by ID for a specific user.  
   📝 *Deletes a medication by ID for a specific user.*
-
+  
+---
 
 ## 📋 Entity Structure
 
@@ -60,12 +61,15 @@ MediAlert is a medication reminder application built with 💻 **Spring Boot**. 
 <img src="assets/Entities.png" alt="SMS Example" width="900" height="500">
 
 ---
+
 ## 🛠️ Getting Started
 
 ### Prerequisites
 - **Java 11 or later** ☕
 - **Maven** 📦
 - **Twilio Account** (for sending SMS reminders)
+
+--- 
 
 ### Installation
 
@@ -85,15 +89,20 @@ twilio.accountSid=your_account_sid
 twilio.authToken=your_auth_token
 twilio.fromPhoneNumber=your_twilio_phone_number```
 5.**Run the application:**
-mvn spring-boot:run
+mvn spring-boot:run```
+
+---
+
 ### 📖 Usage
 Access the Swagger API Documentation:
 
 Open a browser and navigate to:
 ```bash
- http://localhost:9999/swagger-ui/index.html
+ http://localhost:9999/swagger-ui/index.html```
 
 Explore the API: Use the Swagger interface to test the API endpoints for user and medication management.
+
+---
 
 ## 📩 SMS Notification Example
 This is an example of an SMS reminder that will be sent to the user:
