@@ -24,17 +24,33 @@ MediAlert is a medication reminder application built with 💻 **Spring Boot**. 
 ---
 
 ## 🚀 API Endpoints
-👤 User Endpoints
-GET /api/users - Retrieve all users.
-GET /api/users/{id} - Retrieve user details by user ID.
-POST /api/users - Add a new user.
-PUT /api/users/{id} - Update user details by user ID.
-DELETE /api/users/{id} - Delete a user by user ID.
-💊 Medication Endpoints
-GET /api/users/{userId}/medications - Retrieve all medications for a specific user.
-POST /api/users/{userId}/medications - Add a medication for a specific user.
-DELETE /api/users/{userId}/medications/{id} - Delete a medication by ID for a specific user.
+# 🧑‍💻 API Endpoints Documentation
 
+## 👤 User Endpoints
+- **GET** `/api/users` - Retrieve all users.  
+  📝 *Fetches a list of all users from the system.*
+
+- **GET** `/api/users/{id}` - Retrieve user details by user ID.  
+  📝 *Fetches details for a specific user by their ID.*
+
+- **POST** `/api/users` - Add a new user.  
+  📝 *Creates a new user in the system.*
+
+- **PUT** `/api/users/{id}` - Update user details by user ID.  
+  📝 *Updates details of a specific user using their ID.*
+
+- **DELETE** `/api/users/{id}` - Delete a user by user ID.  
+  📝 *Deletes a user from the system using their ID.*
+
+## 💊 Medication Endpoints
+- **GET** `/api/users/{userId}/medications` - Retrieve all medications for a specific user.  
+  📝 *Fetches a list of medications associated with a specific user.*
+
+- **POST** `/api/users/{userId}/medications` - Add a medication for a specific user.  
+  📝 *Adds a new medication for a user.*
+
+- **DELETE** `/api/users/{userId}/medications/{id}` - Delete a medication by ID for a specific user.  
+  📝 *Deletes a medication by ID for a specific user.*
 
 
 ## 📋 Entity Structure
@@ -55,20 +71,19 @@ DELETE /api/users/{userId}/medications/{id} - Delete a medication by ID for a sp
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com//MediAlert.git
-
+   git clone https://github.com//MediAlert.git```
 2.**Navigate into the project directory:**
 ```bash
   cd MediAlert
-
+```
 3. **Install dependencies:**
 ```bash
   mvn install
+```
 4. **Configure Twilio credentials in application.properties:**
 twilio.accountSid=your_account_sid
 twilio.authToken=your_auth_token
-twilio.fromPhoneNumber=your_twilio_phone_number
-
+twilio.fromPhoneNumber=your_twilio_phone_number```
 5.**Run the application:**
 mvn spring-boot:run
 ### 📖 Usage
@@ -100,17 +115,5 @@ Commit your changes.
 Push to the branch.
 Open a Pull Request.
 We welcome all contributions to improve MediAlert! 🚀
-#!/bin/bash
 
-# Clone the repository
-git clone https://github.com/YourUsername/MediAlert.git
-
-# Navigate into the project directory
-cd MediAlert
-
-# Install dependencies
-mvn install
-
-# Start the application
-mvn spring-boot:run
 
