@@ -23,6 +23,7 @@ DELETE /api/users/{id} - Delete a user by user ID.
 GET /api/users/{userId}/medications - Retrieve all medications for a specific user.
 POST /api/users/{userId}/medications - Add a medication for a specific user.
 DELETE /api/users/{userId}/medications/{id} - Delete a medication by ID for a specific user.
+![SMS Example](assets/sms.jpeg)
 🛠️ Getting Started
 Prerequisites
 Java 11 or later ☕
