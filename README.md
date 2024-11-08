@@ -74,7 +74,8 @@ MediAlert is a medication reminder application built with 💻 **Spring Boot**. 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com//MediAlert.git```
+   git clone https://github.com//MediAlert.git
+   ```
 2.**Navigate into the project directory:**
 ```bash
   cd MediAlert
