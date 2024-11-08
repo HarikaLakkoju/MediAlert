@@ -23,7 +23,7 @@ DELETE /api/users/{id} - Delete a user by user ID.
 GET /api/users/{userId}/medications - Retrieve all medications for a specific user.
 POST /api/users/{userId}/medications - Add a medication for a specific user.
 DELETE /api/users/{userId}/medications/{id} - Delete a medication by ID for a specific user.
-![Schema](assets/Entites.png)
+<img src="assets/Entities.png" alt="SMS Example" width="500">
 🛠️ Getting Started
 Prerequisites
 Java 11 or later ☕
@@ -69,11 +69,11 @@ Explore the API: Use the Swagger interface to test the API endpoints for user an
 
 📩 SMS Notification Example
 This is an example of an SMS reminder that will be sent to the user:
-![SMS Example](assets/sms.jpeg)
+<img src="assets/sms.jpeg" alt="SMS Example" width="500">
 
 📄 Swagger API Documentation
 The application includes an interactive Swagger UI for exploring and testing the API.
-![Swagger Screenshot](assets/SwaggerDocumentation.png)
+<img src="assets/SwaggerDocumentation.png" alt="SMS Example" width="500">
 
 📝 Logging
 MediAlert uses SLF4J for structured logging, helping track application activity, including API calls and error handling.
