@@ -56,7 +56,7 @@ MediAlert is a medication reminder application built with 💻 **Spring Boot**. 
 
 ## 📋 Entity Structure
 
-### 👤 User      ### 💊 Medication
+### 👤 User       💊 Medication
 
 <img src="assets/Entities.png" alt="SMS Example" width="900" height="500">
 
@@ -98,8 +98,8 @@ Access the Swagger API Documentation:
 
 Open a browser and navigate to:
 ```bash
- http://localhost:9999/swagger-ui/index.html```
-
+ http://localhost:9999/swagger-ui/index.html
+```
 Explore the API: Use the Swagger interface to test the API endpoints for user and medication management.
 
 ---
@@ -115,14 +115,31 @@ The application includes an interactive Swagger UI for exploring and testing the
 ## 📝 Logging
 MediAlert uses SLF4J for structured logging, helping track application activity, including API calls and error handling.
 
-## 🤝 Contributing
-Want to contribute? 🎉 Follow these steps:
+---
 
-Fork the repository.
-Create a new branch (feature/YourFeature).
-Commit your changes.
-Push to the branch.
-Open a Pull Request.
-We welcome all contributions to improve MediAlert! 🚀
+# Contribution Guide
+
+We welcome all contributions to improve **MediAlert**! To contribute, follow the steps below:
+
+## Steps to Contribute
+
+1. **Fork the repository**  
+   🍴 *Fork the repository to your GitHub account.*
+
+2. **Create a new branch**  
+   🌿 *Create a new branch for your feature.*  
+   Example: `feature/YourFeature`
+
+3. **Commit your changes**  
+   ✍️ *Make changes to the code and commit them to your branch.*
+
+4. **Push to the branch**  
+   🚀 *Push your changes to the branch on your forked repository.*
+
+5. **Open a Pull Request**  
+   🔄 *Create a pull request from your branch to the main repository to propose your changes.*
+
+We look forward to your contributions to make **MediAlert** better! Thank you for your effort.
+
 
 
